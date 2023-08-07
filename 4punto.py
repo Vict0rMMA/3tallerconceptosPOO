@@ -23,7 +23,6 @@ class Rectángulo:
         altura = abs(self.esquina_sup_izq.y - self.esquina_inf_der.y)
         return base == altura
 
-# Ejemplo de uso de la clase Rectángulo
 esquina_sup_izq = Punto(1, 4)
 esquina_inf_der = Punto(5, 1)
 
